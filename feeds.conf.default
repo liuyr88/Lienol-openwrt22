@@ -15,4 +15,4 @@ src-git homeclash https://github.com/xiaoqingfengATGH/homeclash.git
 # strongswanInDocker
 src-git strongswanInDocker https://github.com/xiaoqingfengATGH/luci-app-strongswanInDocke$
 #src-link custom /usr/src/openwrt/custom-feed
-src-git helloworld https://github.com/fw876/helloworld
+#src-git helloworld https://github.com/fw876/helloworld
