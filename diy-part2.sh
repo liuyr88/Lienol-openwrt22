@@ -18,3 +18,7 @@ git clone https://github.com/jerrykuku/lua-maxminddb.git
 git clone https://github.com/jerrykuku/luci-app-vssr.git 
 mv luci-app-vssr/ package/
 mv lua-maxminddb/ package/
+# subconverter
+git clone https://github.com/tindy2013/subconverter.git
+rm -rf /package/feeds/xiaoqingfeng/subconverter
+mv subconverter/ package/feeds/xiaoqingfeng/
