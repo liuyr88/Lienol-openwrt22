@@ -21,4 +21,4 @@ mv lua-maxminddb/ package/
 # subconverter
 git clone https://github.com/tindy2013/subconverter.git
 rm -rf /package/feeds/xiaoqingfeng/subconverter
-mv subconverter/ package/feeds/xiaoqingfeng/
+mv subconverter/ package/
