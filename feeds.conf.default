@@ -13,26 +13,6 @@ src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityf
 # homeclash
 src-git homeclash https://github.com/xiaoqingfengATGH/homeclash.git
 # strongswanInDocker
-#src-git strongswanInDocker https://github.com/xiaoqingfengATGH/luci-app-strongswanInDocke$
-#src-link custom /usr/src/openwrt/custom-feed
-src-git helloworld https://github.com/fw876/helloworld
-
-
-
-src-git packages https://github.com/xiaoqingfengATGH/feeds-packages
-src-git luci https://github.com/xiaoqingfengATGH/feeds-luci
-src-git routing https://github.com/xiaoqingfengATGH/k5-feeds-routing
-src-git telephony https://github.com/xiaoqingfengATGH/k5-feeds-telephony
-src-git lienol https://github.com/homelede/openwrt-package.git
-src-git pw https://github.com/homelede/openwrt-passwall.git
-src-git xiaoqingfeng https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng
-#src-git video https://github.com/openwrt/video.git
-#src-git targets https://github.com/openwrt/targets.git
-#src-git oldpackages http://git.openwrt.org/packages.git
-# luci-theme-infinityfreedom
-src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git
-# homeclash
-src-git homeclash https://github.com/xiaoqingfengATGH/homeclash.git
-# strongswanInDocker
 src-git strongswanInDocker https://github.com/xiaoqingfengATGH/luci-app-strongswanInDocker.git
 #src-link custom /usr/src/openwrt/custom-feed
+src-git helloworld https://github.com/fw876/helloworld
