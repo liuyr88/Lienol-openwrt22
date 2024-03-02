@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Lienol-openwrt22
+name: Lienol-openwrt21
 
 on:
   repository_dispatch:
