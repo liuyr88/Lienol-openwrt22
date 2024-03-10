@@ -11,8 +11,10 @@
 #
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.50.2/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.50.254/g' package/base-files/files/bin/config_generate
 
 #cd openwrt
 #mkdir package/themes
 #git clone https://github.com/jerrykuku/luci-theme-argon.git package/themes/luci-theme-argon
+rm -rf feeds/packages/lang/golang
+git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
