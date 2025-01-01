@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Lienol-openwrt22
+name: Lienol-openwrt23
 
 on:
   repository_dispatch:
@@ -26,7 +26,7 @@ on:
 
 env:
   REPO_URL: https://github.com/Lienol/openwrt
-  REPO_BRANCH: 22.03
+  REPO_BRANCH: 23.05
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: config/x86.config
   DIY_P1_SH: diy-part1.sh
