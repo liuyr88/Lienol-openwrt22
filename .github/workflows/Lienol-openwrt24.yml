@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Lienol-openwrt23
+name: Lienol-openwrt24
 
 on:
   repository_dispatch:
@@ -26,7 +26,7 @@ on:
 
 env:
   REPO_URL: https://github.com/Lienol/openwrt
-  REPO_BRANCH: 23.05
+  REPO_BRANCH: 24.10
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: config/x86.config
   DIY_P1_SH: diy-part1.sh
@@ -75,12 +75,6 @@ jobs:
 
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
-
-    - name:  删除原mosdns
-      run: cd openwrt && rm -rf /package/feeds/NueXini_Packages/luci-app-mosdns
-
-    - name:  自定义mosdns
-      run: cd openwrt && git clone https://github.com/sbwml/luci-app-mosdns -b v5-lua package/mosdns
 
     - name: Install feeds
       run: cd openwrt && ./scripts/feeds install -a
