@@ -20,7 +20,3 @@ sed -i 's/root:::0:99999:7:::/root:$1$m9enpRnu$TjbaRy7zgCDF.hXF6md7p1:20077:0:99
 #git clone https://github.com/jerrykuku/luci-theme-argon.git package/themes/luci-theme-argon
 #rm -rf feeds/packages/lang/golang
 #git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
-git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
-git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
-git clone https://github.com/jerrykuku/luci-theme-argon.git package/themes/luci-theme-argon
-git clone https://github.com/kenzok78/luci-theme-argone package/themes/luci-theme-argone
