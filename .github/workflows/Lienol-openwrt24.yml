@@ -9,8 +9,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Lienol-openwrt23
-
+name: Lienol-openwrt24
 on:
   repository_dispatch:
   workflow_dispatch:
@@ -20,10 +19,10 @@ on:
         required: false
         default: 'false'
         
-  schedule:
-    - cron: 0 17 * * 6
-  watch:
-    types: started
+ # schedule:
+ #   - cron: 0 17 * * 6
+ # watch:
+ #   types: started
 
 env:
   REPO_URL: https://github.com/Lienol/openwrt
