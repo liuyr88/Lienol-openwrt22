@@ -17,7 +17,7 @@ on:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/Lienol/openwrt 24.10
+  REPO_URL: -b 24.10 https://github.com/Lienol/openwrt
   # REPO_BRANCH: 23.05
   FEEDS_CONF: feeds.conf.default24
   CONFIG_FILE: config/openwrt24-x86.config
