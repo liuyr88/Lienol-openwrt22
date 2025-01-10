@@ -17,7 +17,7 @@ on:
   workflow_dispatch:
 
 env:
-  REPO_URL: -b 24.10 https://github.com/Lienol/openwrt
+  # REPO_URL: -b 24.10 https://github.com/Lienol/openwrt
   # REPO_BRANCH: 23.05
   FEEDS_CONF: feeds.conf.default24
   CONFIG_FILE: config/openwrt24-x86.config
@@ -54,7 +54,7 @@ jobs:
       working-directory: /workdir
       run: |
         df -hT $PWD
-        git clone $REPO_URL -b $REPO_BRANCH openwrt
+        git clone -b 24.10 https://github.com/Lienol/openwrt openwrt
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
 
     - name: Load custom feeds
